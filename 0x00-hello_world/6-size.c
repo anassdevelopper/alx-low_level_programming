@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
-* You should produce the exact same output as in the example
-* Warnings are allowed
-*
-* Your program should return 0
-*/
+ * main - Entry point
+ *
+ * Description: Prints the sizes of various data types in bytes
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char c;
