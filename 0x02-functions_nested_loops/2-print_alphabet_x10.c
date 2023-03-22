@@ -1,4 +1,10 @@
 #include "main.h"
+int main(void)
+{
+	print_alphabet_x10();
+	
+	return (0);
+}
 
 /**
  * print_alphabet_x10 - Prints the lowercase alphabet ten times, followed by a new line after each set.
