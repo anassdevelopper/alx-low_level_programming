@@ -3,7 +3,7 @@
 
 /**
  * print_line - prints a straight line
- * @n: variable
+ * @n: parameter
  * Return:returns nothing
  */
 
