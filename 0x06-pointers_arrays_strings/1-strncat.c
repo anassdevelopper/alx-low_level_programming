@@ -5,9 +5,9 @@
  *
  * @src: source
  * @dest: destination
- * @n: The length of int
+ * @n: integer to compare index 
  *
- * Return: return 
+ * Return: returns new concatenated string
  */
 
 char *_strncat(char *dest, char *src, int n)
