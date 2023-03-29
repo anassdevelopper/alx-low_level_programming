@@ -3,13 +3,12 @@
 /**
  * _strncat - concatenates two strings
  *
- * @src: source
- * @dest: destination
- * @n: integer to compare index 
+ * @src: The source of strings
+ * @dest: The destination of the string
+ * @n: The length of int
  *
- * Return: returns new concatenated string
+ * Return: pointer to the resulting string dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
