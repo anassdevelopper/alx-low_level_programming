@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * set_chars - sets the first n characters of an array to a given value
- * @s: pointer to the array
- * @b: the value to set
- * @n: number of characters to set
+ * _memset - Fills the first n bytes of the memory area
+ * pointed to by @s with the constant byte @c.
+ * @s: A pointer to the array.
+ * @b: the value to set.
+ * @n: number of characters to set.
  *
- * Return: pointer to the modified array
+ * Return: pointer to the modified array.
  */
-char *set_chars(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int i = 0;
 
-	for (i = 0; i < n; i++)
-		s[i] = b;
-
+	while (i < n)
+	{
+		*(s + i) = b;
+		i++;
+	}
 	return (s);
 }
